@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		255BC4EF2769960000D61D2C /* ThemeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255BC4EE2769960000D61D2C /* ThemeManager.swift */; };
 		255BC4F12769962B00D61D2C /* ProfileEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255BC4F02769962B00D61D2C /* ProfileEditViewController.swift */; };
+		255BC4F32769966200D61D2C /* HomeSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255BC4F22769966200D61D2C /* HomeSearchViewController.swift */; };
 		2597C04227698E9300EF6D52 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2597C04127698E9300EF6D52 /* AppDelegate.swift */; };
 		2597C04427698E9300EF6D52 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2597C04327698E9300EF6D52 /* SceneDelegate.swift */; };
 		2597C04627698E9300EF6D52 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2597C04527698E9300EF6D52 /* ViewController.swift */; };
@@ -24,6 +25,7 @@
 /* Begin PBXFileReference section */
 		255BC4EE2769960000D61D2C /* ThemeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeManager.swift; sourceTree = "<group>"; };
 		255BC4F02769962B00D61D2C /* ProfileEditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileEditViewController.swift; sourceTree = "<group>"; };
+		255BC4F22769966200D61D2C /* HomeSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeSearchViewController.swift; sourceTree = "<group>"; };
 		2597C03E27698E9300EF6D52 /* gitCommand.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gitCommand.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2597C04127698E9300EF6D52 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2597C04327698E9300EF6D52 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -87,6 +89,7 @@
 			isa = PBXGroup;
 			children = (
 				2597C05627698F2500EF6D52 /* HomeViewController.swift */,
+				255BC4F22769966200D61D2C /* HomeSearchViewController.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -191,6 +194,7 @@
 				2597C05D27698FAB00EF6D52 /* ShopCartViewController.swift in Sources */,
 				255BC4F12769962B00D61D2C /* ProfileEditViewController.swift in Sources */,
 				2597C04627698E9300EF6D52 /* ViewController.swift in Sources */,
+				255BC4F32769966200D61D2C /* HomeSearchViewController.swift in Sources */,
 				2597C04227698E9300EF6D52 /* AppDelegate.swift in Sources */,
 				255BC4EF2769960000D61D2C /* ThemeManager.swift in Sources */,
 				2597C05A27698F5C00EF6D52 /* ProfileViewController.swift in Sources */,
