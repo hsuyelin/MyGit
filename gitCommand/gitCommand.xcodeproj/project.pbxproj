@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		255BC4F5276996AA00D61D2C /* LanguageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255BC4F4276996AA00D61D2C /* LanguageManager.swift */; };
 		255BC4F7276996D100D61D2C /* VideoCirclePublisherController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255BC4F6276996D100D61D2C /* VideoCirclePublisherController.swift */; };
+		255BC4F92769972B00D61D2C /* ProfileFavoriteController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255BC4F82769972B00D61D2C /* ProfileFavoriteController.swift */; };
 		2597C04227698E9300EF6D52 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2597C04127698E9300EF6D52 /* AppDelegate.swift */; };
 		2597C04427698E9300EF6D52 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2597C04327698E9300EF6D52 /* SceneDelegate.swift */; };
 		2597C04627698E9300EF6D52 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2597C04527698E9300EF6D52 /* ViewController.swift */; };
@@ -25,6 +26,7 @@
 /* Begin PBXFileReference section */
 		255BC4F4276996AA00D61D2C /* LanguageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageManager.swift; sourceTree = "<group>"; };
 		255BC4F6276996D100D61D2C /* VideoCirclePublisherController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCirclePublisherController.swift; sourceTree = "<group>"; };
+		255BC4F82769972B00D61D2C /* ProfileFavoriteController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileFavoriteController.swift; sourceTree = "<group>"; };
 		2597C03E27698E9300EF6D52 /* gitCommand.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gitCommand.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2597C04127698E9300EF6D52 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2597C04327698E9300EF6D52 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -98,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				2597C05927698F5C00EF6D52 /* ProfileViewController.swift */,
+				255BC4F82769972B00D61D2C /* ProfileFavoriteController.swift */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -202,6 +205,7 @@
 				255BC4F7276996D100D61D2C /* VideoCirclePublisherController.swift in Sources */,
 				2597C0602769908100EF6D52 /* VideoCircleViewController.swift in Sources */,
 				2597C05D27698FAB00EF6D52 /* ShopCartViewController.swift in Sources */,
+				255BC4F92769972B00D61D2C /* ProfileFavoriteController.swift in Sources */,
 				2597C04627698E9300EF6D52 /* ViewController.swift in Sources */,
 				2597C04227698E9300EF6D52 /* AppDelegate.swift in Sources */,
 				2597C05A27698F5C00EF6D52 /* ProfileViewController.swift in Sources */,
