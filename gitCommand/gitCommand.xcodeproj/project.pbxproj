@@ -16,6 +16,7 @@
 		2597C05727698F2500EF6D52 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2597C05627698F2500EF6D52 /* HomeViewController.swift */; };
 		2597C05A27698F5C00EF6D52 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2597C05927698F5C00EF6D52 /* ProfileViewController.swift */; };
 		2597C05D27698FAB00EF6D52 /* ShopCartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2597C05C27698FAB00EF6D52 /* ShopCartViewController.swift */; };
+		2597C063276990FB00EF6D52 /* Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2597C062276990FB00EF6D52 /* Style.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		2597C05627698F2500EF6D52 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		2597C05927698F5C00EF6D52 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		2597C05C27698FAB00EF6D52 /* ShopCartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopCartViewController.swift; sourceTree = "<group>"; };
+		2597C062276990FB00EF6D52 /* Style.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Style.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 		2597C04027698E9300EF6D52 /* gitCommand */ = {
 			isa = PBXGroup;
 			children = (
+				2597C061276990EC00EF6D52 /* Utils */,
 				2597C05B27698F7A00EF6D52 /* ShopCart */,
 				2597C05827698F4E00EF6D52 /* Profile */,
 				2597C05527698F1700EF6D52 /* Home */,
@@ -98,6 +101,14 @@
 				2597C05C27698FAB00EF6D52 /* ShopCartViewController.swift */,
 			);
 			path = ShopCart;
+			sourceTree = "<group>";
+		};
+		2597C061276990EC00EF6D52 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				2597C062276990FB00EF6D52 /* Style.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -176,6 +187,7 @@
 				2597C04227698E9300EF6D52 /* AppDelegate.swift in Sources */,
 				2597C05A27698F5C00EF6D52 /* ProfileViewController.swift in Sources */,
 				2597C04427698E9300EF6D52 /* SceneDelegate.swift in Sources */,
+				2597C063276990FB00EF6D52 /* Style.swift in Sources */,
 				2597C05727698F2500EF6D52 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
