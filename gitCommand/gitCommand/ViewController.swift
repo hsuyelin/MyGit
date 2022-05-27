@@ -17,8 +17,12 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
         
         view.backgroundColor = .white
+        test()
     }
-
-
+    
+    func test() {
+        let value = 1
+        debugPrint("\(value)"
+    }
 }
 
