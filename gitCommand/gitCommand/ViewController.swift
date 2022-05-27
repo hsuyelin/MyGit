@@ -22,7 +22,7 @@ class ViewController: UIViewController {
     
     func test() {
         let value = 1
-        debugPrint("\(value)"
+        debugPrint("\(value)")
     }
 }
 
