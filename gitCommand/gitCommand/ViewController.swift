@@ -27,7 +27,7 @@ class ViewController: UIViewController {
     }
     
     func test2() {
-        let value = 2
+        let value = 3
         debugPrint("\(value)")
     }
 }
