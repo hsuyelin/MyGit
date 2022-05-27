@@ -18,10 +18,16 @@ class ViewController: UIViewController {
         
         view.backgroundColor = .white
         test()
+        test2()
     }
     
     func test() {
         let value = 1
+        debugPrint("\(value)")
+    }
+    
+    func test2() {
+        let value = 2
         debugPrint("\(value)")
     }
 }
